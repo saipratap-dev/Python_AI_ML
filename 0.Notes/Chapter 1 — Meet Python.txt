@@ -1,0 +1,155 @@
+1.1 What is Programming?
+Programming
+　　1. Meaning
+　　　 Programming means telling a computer what to do.
+　　2. Real-life example
+　　　 Imagine a robot:
+　　　 Step 1: Take a cup.
+　　　 Step 2: Fill it with water.
+　　　 Step 3: Give it to you.
+　　　 The robot follows your instructions. A computer works in a similar way.
+　　3. How it works
+　　　 We write instructions → The computer follows them → We get a result.
+　　4. Python example
+print("Hello World")
+　　　 Meaning: Tell Python to show a message.
+　　　 Output: Hello World
+　　5. Real-time example
+　　　 A program checks a camera. If the camera stops working, it shows an alert.
+　　6. Interview answer
+　　　 “Programming means writing instructions that tell a computer how to perform a task.”
+
+1.2 What is Python?
+1. Meaning
+　　Python is a programming language used to write instructions for a computer.
+2. Real-life example
+　　Imagine you speak Telugu, but a Japanese person understands only Japanese. A translator helps both of you communicate.
+　　Similarly, we write instructions in Python, and the Python interpreter reads the code and helps the computer execute those instructions.
+3. How it works
+　　You write Python code → Python interpreter processes it → Computer performs the task
+4. Simple program
+print("Hello")
+　　Explanation: print() tells Python to display a message.
+　　Output: Hello
+5. Why Python?
+　　Python is easier for humans to read and write than many lower-level programming languages, so we can build applications and automate tasks with less complicated code.
+6. Interview answer
+　　“Python is a high-level programming language. We use it to write instructions, and the Python interpreter executes our code so the computer can perform the required task.”
+
+1.3 Prepare Your Computer for Python
+Imagine you want to write a letter. You need a notebook and a pen. Similarly, to write Python programs, you need a few tools.
+1. Install Python:	Python is the tool that runs your code.
+Download: Python
+2. Install VS Code:	VS Code is where you write your Python code, like writing in a notebook.
+Download: VS Code
+3. Install the Python Extension
+Open VS Code → click Extensions → search Python → install the Microsoft extension.
+It helps VS Code work with Python code.
+4. Write Your First Program: Open VS Code, create a file named hello.py, and write:
+print("Hello!")
+5. Run Your Program: In VS Code, click Terminal → New Terminal and type:
+python hello.py
+Output:
+Hello!
+Remember: VS Code is where you write code. 
+       Python runs it. 
+       The terminal is where you give the command to run it.
+
+
+1.4 Write Your First Python Program
+1. print() — Show a message
+Python displays whatever you put inside print(). 
+print("Hello!")
+2. Comments using # — Notes for humans
+Comments explain code. Python ignores them when running the program.
+3.Indentation: Adding spaces before code to tell Python which instructions are part of the same group. 
+	if hungry:
+		print(“Wash your hand and plate”)
+    		print("Eat food")
+   		print("Drink water")
+ 		print(“After eating wash your hand”
+	else:
+		Print(“I am not hungry”)
+
+	Python uses spaces to understand that “Eat food” and “Drink water” belong to “If you are hungry.” 
+4. Syntax Errors: A syntax error means writing code incorrectly. 
+
+
+1.5 Input and Output 
+1. input() — Ask the user a question
+
+Imagine you are making a robot that welcomes people. The robot needs to know their names before it can greet them! 
+
+name = input("What is your name? ")
+Who does what?
+Programmer: You write the instructions.
+Python: Reads and runs your instructions.
+User: The person using your program.
+Why does the user answer?
+Because the program needs the user's name to give a personal greeting.
+Example:
+What is your name? Sai
+The user types Sai, and Python stores it in the name box.
+2. print() — Show a message
+print("Hello Sai!")
+Python displays the message on the screen.
+Why do we need it?
+So the user can see the result.
+3. f-string — Put a value inside a message
+
+name = "Sai"
+print(f"Hello {name}!")
+Output: Hello Sai!
+The {name} part is replaced with the value stored in name.
+
+4. \n — Start a new line 
+print("Hello\nSai")
+
+
+
+
+
+
+
+
+==============================================
+PYTHON BASICS
+│
+├── 1. Programming
+│   ├── Meaning: Giving instructions to a computer
+│   ├── Example: Tell a robot to bring water
+│   └── Why? To make computers do our work
+│
+├── 2. Python
+│   ├── Meaning: A programming language
+│   ├── Example: print("Hello")
+│   └── Why? To build applications and automate tasks
+│
+├── 3. Python Setup
+│   ├── Python → Runs code
+│   ├── VS Code → Write code
+│   ├── Terminal → Run commands
+│   └── Why? To write and execute programs
+│
+├── 4. First Program
+│   ├── print() → Display a message
+│   │   └── Why? To show results to users
+│   ├── # → Comment
+│   │   └── Why? To explain code to humans
+│   ├── Indentation → Spaces before code
+│   │   └── Why? To show which instructions belong together
+│   └── Syntax Error → Incorrect code
+│       └── Why? Python needs correct syntax to run code
+│
+└── 5. Input and Output
+    ├── input() → Get information from users
+    │   └── Why? To let users provide information
+    ├── Variable → Store information
+    │   └── Why? To use information later
+    ├── print() → Display information
+    │   └── Why? So users can see results
+    ├── f-string → Insert values into text
+    │   └── Why? To create personalized messages
+    └── \n → Start a new line
+        └── Why? To make output easier to read
+
